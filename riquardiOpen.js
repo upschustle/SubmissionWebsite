@@ -2,5 +2,5 @@
 //redirect to upschustle.github.io/submissionWebsite/upschustle/index.html
 function riquardi()
 {
-	window.open("./upschustle/index.html","_self");
+	window.open("./upscHustle/index.html","_self");
 };
