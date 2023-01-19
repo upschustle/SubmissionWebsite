@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UPSC Hustle</title>
+
+    <!-- Favicons -->
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/site.webmanifest" />
+
+    <meta name="author" content="TusharPandey" />
+    <meta
+      name="description"
+      content="Product Portal centered around UPSC paper checking for Sneha Pandey"
+    />
+    <meta
+      name="keywords"
+      content="Developer, UPSC, anwer, answer sheets, checking, paid evaluation, answer evaluation, awnswer checking, mains checking, upsc main, upsc mains, HTML, CSS, JS, GlassMorphic, Glassmorphic, GlassMorphism, Glassmorphism, UI, Sneha, SnehaPandey, Sneha Pandey, Pandey, govt. Job, government, job, naukri, naukari"/>
+
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    <link rel="canonical" href="https://upschustle.github.io/" />
+
+    <link rel="stylesheet" href="./assets/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script defer src="./assets/js/all.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <script src="https://code.iconify.design/2/2.0.4/iconify.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--Animation-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="snow"> </div>
+    <!-- <div id="progress">
+      <span id="progress-value"></span>
+    </div> -->
+
+    <section style="z-index: +1 !important;">
+      <div class="container">
+        <div id="top" class="page-scroll"></div>
+        <!-- Navbar -->
+        <header class="headerPadding">
+          
+          <a href="#top" class="logo page">UPSC Hustle</a>
+          <a href="#" class="enabledisable one fas fa-expand-arrows-alt" onclick="visibility()" id="arrow"></a>
+          <a href="#" class="enabledisable two fas fa-compress-arrows-alt" style="display: none;" onclick="visibilityC()" id="arrowc"></a>
+          <script type="text/javascript">
+            function visibility(){
+            let nodeList = document.querySelectorAll(".one");
+            for (let i = 0; i < nodeList.length; i++) {
+             nodeList[i].style.display = "none";
+            }
+            let nodeList1 = document.querySelectorAll(".two");
+            for (let i = 0; i < nodeList1.length; i++) {
+             nodeList1[i].style.display = "initial";
+            }
+            let nodeList2 = document.querySelectorAll(".page");
+            for (let i = 0; i < nodeList2.length; i++) {
+             nodeList2[i].style.display = "none";
+             nodeList2[i].style.padding = "5px";
+            }
+            let nodeList3 = document.querySelectorAll(".headerPadding");
+            for (let i = 0; i < nodeList3.length; i++) {
+             nodeList3[i].style.padding = "0px";
+            }
+            }
+            function visibilityC(){
+            let nodeList = document.querySelectorAll(".one");
+            for (let i = 0; i < nodeList.length; i++) {
+             nodeList[i].style.display = "initial";
+            }
+            let nodeList1 = document.querySelectorAll(".two");
+            for (let i = 0; i < nodeList1.length; i++) {
+             nodeList1[i].style.display = "none";
+            }
+            let nodeList2 = document.querySelectorAll(".page");
+            for (let i = 0; i < nodeList2.length; i++) {
+             nodeList2[i].style.display = "initial";
+            }
+            }
+          </script>
+          
+          <ul>
+            <li><a class="active page" href="#top" id="home-btn">Home</a></li>
+            <li><a href="#about" class="page" id="about-btn">Mission Success</a></li>
+            <li><a href="#mission" class="page"id="experience-btn">Experience</a></li>
+            <li><a href="#rules" class="page" id="project-btn">Rules</a></li>
+            <li>
+              <a href="#upload" class="page" id="contact-btn"
+                >Upload</a>
+            </li>
+          </ul>
+        </header>
+
+        <!-- Main Content -->
+        <div class="content">
+          <div class="column">
+            <h2 data-aos="fade-down" data-aos-duration="1000">Hi all, This is Sneha Pandey<span class="wave">👋</span></h2>
+            <p data-aos="fade-right" data-aos-duration="1000">
+              UPSC anwer sheets are precious!! And I help you check their answer "Quality", All in <b style="font-size:2.5rem !important">INR 9.51/-</b></p>
+
+            <a href="#about" data-aos="fade-down-left" data-aos-duration="1000">About Me</a>
+            <a href="#mission" data-aos="fade-up-right" data-aos-duration="1000">My Mission</a>
+          </div>
+          <div class="img">
+            <img
+              src="./assets/Vector 10.png"
+              class="shape"
+              style="top: 5rem; right: 15rem"
+              alt="Vector 10"
+              data-aos="fade-up-right" data-aos-duration="1000"
+            />
+            <img
+              src="./assets/Vector 11.png"
+              class="shape"
+              style="height: 8rem; width: 8rem; top: 8rem; right: 20rem"
+              alt="Vector 10"
+              data-aos="fade-up-right" data-aos-duration="1000"
+            />
+            <img
+              src="./assets/Vector 16.png"
+              class="shape"
+              style="height: 8rem; width: 8rem; top: 8rem; right: 15rem"
+              alt="Vector 10"
+              data-aos="fade-up-right" data-aos-duration="1000"
+            />
+            <img
+              src="./assets/Vector 10.png"
+              class="shape"
+              style="z-index: 1; top: 23rem; right: 9rem"
+              alt="Vector 10"
+              data-aos="fade-up-right" data-aos-duration="1000"
+            />
+            <img
+              src="./assets/Vector 27.png"
+              class="shape"
+              style="
+                z-index: 1;
+                height: 8rem;
+                width: 8rem;
+                top: 25rem;
+                right: 13rem;
+              "
+              alt="Vector 10"
+              data-aos="fade-up-right" data-aos-duration="1000"
+            />
+            <img
+              src="./assets/Vector 11.png"
+              class="shape"
+              style="
+                z-index: 1;
+                height: 4rem;
+                width: 4rem;
+                top: 26rem;
+                right: 9rem;
+              "
+              alt="Vector 10"
+              data-aos="fade-up-right" data-aos-duration="1000"
+            />
+            <img src="./assets/APS-OCTOCAT.png" alt="APS-OCTOCAT" data-aos="fade-up-right" data-aos-duration="1000"/>
+          </div>
+        </div>
+
+        <!-- 2nd Section -->
+        <div id="about" class="content page-scroll" style="justify-content: space-around">
+          <div class="img" data-aos="fade-right" data-aos-duration="1000">
+            <!-- https://media.giphy.com/media/7wA0YhMXvDBhTckOGM/giphy.gif?cid=790b7611b6565a9092ee51eeee34015858a0783fd77b6f31&rid=giphy.gif&ct=s -->
+            <img
+              src="https://media.giphy.com/media/7wA0YhMXvDBhTckOGM/source.gif?cid=790b7611b6565a9092ee51eeee34015858a0783fd77b6f31&rid=source.gif&ct=s"
+              alt="APS-OCTOCAT"
+            />
+          </div>
+          <div class="column-2">
+            <svg
+              xmlns="//www.w3.org/2000/svg"
+              version="1.1"
+              class="svg-filters"
+              style="display: none"
+            >
+              <defs>
+                <filter id="marker-shape">
+                  <feTurbulence
+                    type="fractalNoise"
+                    baseFrequency="0 0.15"
+                    numOctaves="1"
+                    result="warp"
+                  />
+                  <feDisplacementMap
+                    xChannelSelector="R"
+                    yChannelSelector="G"
+                    scale="30"
+                    in="SourceGraphic"
+                    in2="warp"
+                  />
+                </filter>
+              </defs>
+            </svg>
+            <h2 style="font-weight: 550">
+              <span class="low-highlight-pink">What I do</span>
+            </h2>
+            <h3 style="font-size: 24px; color: #444444; font-weight: 1">
+              A 9-5 IT employee, I chase my dream of UPSC, and help others follow it too! <h3 style="font-color:black !important" >Yes, That is my mission!<h3>
+            </h3>
+            <div class="dev-icons">
+              <ul>
+                <li class="software-skill-inline c">
+                  <i class="devicon-fastapi-plain"></i>
+                  
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <p style="color: #444444; font-size: 20px">
+                <img
+                  alt="⚡"
+                  draggable="false"
+                  src="https://cdn.jsdelivr.net/npm/twemoji@11.3.0/2/svg/1f44f.svg"
+                  style="
+                    height: 1em;
+                    width: 1em;
+                    margin: 0px 0.05em 0px 0.1em;
+                    vertical-align: -0.1em;
+                  "
+                />
+                I want to make sure everybody gets a chance to enhance their Mains Answer-Writing skill
+              </p>
+              <p style="color: #444444; font-size: 20px">
+                <img
+                  alt="⚡"
+                  draggable="false"
+                  src="https://cdn.jsdelivr.net/npm/twemoji@11.3.0/2/svg/1f44f.svg"
+                  style="
+                    height: 1em;
+                    width: 1em;
+                    margin: 0px 0.05em 0px 0.1em;
+                    vertical-align: -0.1em;
+                  "
+                />
+                Prevent people from falling in trap of expensive Coaching Institutes charging HIGH AMOUNT for even simple things!!
+              </p>
+              <p style="color: #444444; font-size: 20px">
+                <img
+                  alt="⚡"
+                  draggable="false"
+                  src="https://cdn.jsdelivr.net/npm/twemoji@11.3.0/2/svg/1f44f.svg"
+                  style="
+                    height: 1em;
+                    width: 1em;
+                    margin: 0px 0.05em 0px 0.1em;
+                    vertical-align: -0.1em;
+                  "
+                />
+                Help myself improve my skills of understanding Answer Writing and helping others by sharing it!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3rd Section -->
+        <h2
+          data-aos="fade-down" data-aos-duration="1500"
+          id="mission"
+          class="mob-h2 page-scroll"
+          style="font-size: 56px; font-weight: 700; margin-top: 50px; text-align:center;"
+        >
+          <span class="low-highlight-skin">My Experiences in life</span>
+        </h2>
+        <div class="experience-cards-div">
+          <div class="experience-card" data-aos="fade-right" data-aos-duration="1500">
+            <div class="experience-banner" style="background: #444941">
+              <div class="experience-blurred_div"></div>
+              <div class="experience-div-company">
+                <script src="https://cdn.lordicon.com/fudrjiwc.js"></script>
+<lord-icon
+    src="https://cdn.lordicon.com/elwzfyhv.json"
+    trigger="loop"
+    style="width:250px;height:250px">
+</lord-icon>
+              </div>
+              <img class="experience-roundedimg" src="https://img.icons8.com/clouds/100/null/monitor.png"/>
+            </div>
+            <div class="experience-text-details">
+              <h5 class="experience-text-role">B.tech ECE</h5>
+              <h5 class="experience-text-date">2013-2017</h5>
+              <p class="subTitle experience-text-desc">
+                A B.tech degree taught me how to give in countless hours perfecting a small thing. You know the real value of perfection only when you are close to it...
+                <br>
+                I was the college topper in my time, and always hungry for more, So never stop in your life...
+              </p>
+            </div>
+          </div>
+          <div class="experience-card" data-aos="fade-right" data-aos-duration="2000">
+            <div
+              class="experience-banner"
+              style="background: rgb(20, 124, 244)"
+            >
+              <div class="experience-blurred_div"></div>
+              <div class="experience-div-company">
+               <img src="https://img.icons8.com/external-wanicon-lineal-color-wanicon/250/null/external-competition-business-administration-wanicon-lineal-color-wanicon.png"/>
+                <!-- svg code for fcebook logo was here-->
+              </div>
+              <lord-icon                
+                class="experience-roundedimg"
+                src="https://cdn.lordicon.com/kfutqnjo.json"
+                trigger="loop"
+                delay="2000"
+                style="width:100px;height:100px">
+</lord-icon>
+              </div>
+            <div class="experience-text-details">
+              <h5 class="experience-text-role">GATE - QUALIFIED</h5>
+              <h5 class="experience-text-date">2019, 2022</h5>
+              <p class="subTitle experience-text-desc">
+                I never thought my childhood dream of UPSC would actually pull me towards it! Appearing for GATE was almost second nature!! Regardless, I did indeed clear it hahaha. 
+              </p>
+            </div>
+          </div>
+          <div class="experience-card" data-aos="fade-right" data-aos-duration="2500">
+            <div class="experience-banner" style="background: rgb(0, 0, 0)">
+              <div class="experience-blurred_div"></div>
+              <div class="experience-div-company">
+                <script src="https://cdn.lordicon.com/fudrjiwc.js"></script>
+<lord-icon
+    src="https://cdn.lordicon.com/qtqvorle.json"
+    trigger="loop"
+    delay="2000"
+    style="width:250px;height:250px">
+</lord-icon>
+                <!--svg code for Netflix was here-->
+              </div>
+              <img
+                class="experience-roundedimg"
+                src="./assets/naukri.png"
+                alt="Naukri.com"
+              />
+            </div>
+            <div class="experience-text-details">
+              <h5 class="experience-text-role">InfoEdge</h5>
+              <h5 class="experience-text-date">Resume Writer</h5>
+              <h5 class="experience-text-date">2021 to 2022</h5>
+              <p class="subTitle experience-text-desc">
+                Thought of joining the Corporate tussle like an average girl, I was helping people develop their Resume's at Naukri.com!! 
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="experience-cards-div">
+          <div class="experience-card" data-aos="fade-right" data-aos-duration="1500">
+            <div class="experience-banner" style="background: #444941">
+              <div class="experience-blurred_div"></div>
+              <div class="experience-div-company">
+                <script src="https://cdn.lordicon.com/fudrjiwc.js"></script>
+<lord-icon
+    src="https://cdn.lordicon.com/jefnhaqh.json"
+    trigger="loop"
+    delay="2000"
+    style="width:250px;height:250px">
+</lord-icon>
+              </div>
+              <img
+                class="experience-roundedimg"
+                src="./assets/whitehat.png"
+                alt="Facebook"
+              />
+            </div>
+            <div class="experience-text-details">
+              <h5 class="experience-text-role">WhiteHatJR</h5>
+              <p class="subTitle experience-text-desc">_</p>
+              <p class="subTitle experience-text-desc">
+                Managing clients over Coding and Maths course subscriptions
+                My destiny has been my Arch Nemesis, I left my city and came to New Delhi for studying for UPSC. Joined WhiteHatJR for funding my expenses. Unfortunately, The working culture was not so great and I was hardly getting time for my studies...
+                <br>
+              </p>
+            </div>
+          </div>
+
+          <div class="experience-card" data-aos="fade-right" data-aos-duration="2000">
+            <div
+              class="experience-banner"
+              style="background: rgb(55, 170, 15)"
+            >
+              <div class="experience-blurred_div"></div>
+              <div class="experience-div-company">
+                <script src="https://cdn.lordicon.com/fudrjiwc.js"></script>
+<lord-icon
+    src="https://cdn.lordicon.com/ujmqspux.json"
+    trigger="loop"
+    delay="2000"
+    style="width:250px;height:250px">
+</lord-icon>
+                <!-- svg code for facebook 2 was here-->
+              </div>
+              <img
+                class="experience-roundedimg"
+                src="./assets/wealthGuruLogo.png"
+                alt="Money"
+              />
+            </div>
+            <div class="experience-text-details">
+              <h5 class="experience-text-date">Operations Manager</h5>
+              <p class="subTitle experience-text-desc">_</p>
+              <p class="subTitle experience-text-desc">
+                Conducted meetings and presentations to share ideas and findings. Gathered critical information from meetings with various stakeholders and producing useful reports to improve  the Operational Management System hosted by the company
+              </p>
+            </div>
+          </div>
+
+          <div class="experience-card" data-aos="fade-right" data-aos-duration="2000">
+            <div
+              class="experience-banner"
+              style="background: rgb(20, 124, 244)"
+            >
+              <div class="experience-blurred_div"></div>
+              <div class="experience-div-company">
+                <script src="https://cdn.lordicon.com/fudrjiwc.js"></script>
+<lord-icon
+    src="https://cdn.lordicon.com/hbwqfgcf.json"
+    trigger="loop"
+    delay="2000"
+    style="width:250px;height:250px">
+</lord-icon>
+                <!-- svg code for facebook 2 was here-->
+              </div>
+              <img
+                class="experience-roundedimg"
+                src="./assets/dellLogo.png"
+                alt="Facebook"
+              />
+            </div>
+            <div class="experience-text-details">
+              <h5 class="experience-text-role">Dell EMC</h5>
+              <h5 class="experience-text-date">Business Analyst</h5>
+              <p class="subTitle experience-text-desc">
+                Since past few fortunate months, I am now with Dell, Bangalore. Living a new life untill I can change it... With a dream of helping you all get ahead of the crowd along with me...
+              </p>
+            </div>
+          </div>
+        </div>
+        <br>
+          <h2 style="font-size: 3.9rem; justify-content:stretch; " data-aos="fade-down" data-aos-duration="1000">May you all Succeed <span class="wave">🤞🏼</span></h2>
+
+        <!-- 4th Section -->
+        <svg
+          xmlns="//www.w3.org/2000/svg"
+          version="1.1"
+          class="svg-filters"
+          style="display: none"
+        >
+          <defs>
+            <filter id="marker-shape">
+              <feTurbulence
+                type="fractalNoise"
+                baseFrequency="0 0.15"
+                numOctaves="1"
+                result="warp"
+              />
+              <feDisplacementMap
+                xChannelSelector="R"
+                yChannelSelector="G"
+                scale="30"
+                in="SourceGraphic"
+                in2="warp"
+              />
+            </filter>
+          </defs>
+        </svg>
+        <h2
+          id="rules"
+          class="mob-h2 page-scroll"
+          style="font-size: 56px; font-weight: 700; margin-top: 50px"
+        >
+          <span class="low-highlight-cyan">Rules</span>
+        </h2>
+        <div class="projects" data-aos="fade-up" data-aos-duration="1500">
+          
+          <div class="certificate-card">
+            
+            <div class="certificate-detail-div">
+              <h5 class="card-title">1. Decide a question you want to practice, or click this card to choose questions from our Ideas<br><br></h5>
+              <div class="certificate-card-footer" width="flex">
+              <span class="certificate-tag" onclick="func()">Choose Question from QUESTION GALLERY</span>
+              </div>
+              <p class="card-subtitle"><br>Generally, a good question is short, but is related to a very deep topic, touching various point of soceity all at once. these questions have no right or wrong answer, but how you express your view point is Extremely important!<br><br></p>
+            </div>
+            <div class="certificate-card-footer" width="flex">
+              <span class="certificate-tag">Best way to choose a question according to me is decide which topic in last one week have you heard in news globally, Then Choose the topic you know the LEAST about!!! This helps.</span>
+              
+            </div>
+          </div>
+          <div class="certificate-card">
+            
+            <div class="certificate-detail-div">
+              <h5 class="card-title">2. Write your answer on a sheet of paper or a big register. (Preferable size is A4 Sheets) </h5>
+              <p class="card-subtitle">Avoid using small notebooks or bad paper as it effects your quality of writing. White pages are not necessary, use any quality of paper/Notebook, But size of that thing is important! <br><br></p>
+            </div>
+            <div class="certificate-card-footer" width="flex">
+              <span class="certificate-tag">I also prefer registers (White paper or Grey paper also), as they are big enough on single page to write long answer and I can see more text on one sheet, so less time wasted in Turning Pages!!</span>
+              
+            </div>
+          </div>
+
+          <div class="certificate-card">
+            
+            <div class="certificate-detail-div">
+              <h5 class="card-title">3. Write Page number on each page on top in BIG DIGITS</h5>
+              <p class="card-subtitle">Page number is extremely important, since it will help you measure mentally of how much text you have written, Plus it helps me better navigate your answers<br><br></p>
+            </div>
+            <div class="certificate-card-footer" width="flex">
+              <span class="certificate-tag">Take a sketchpen and write 'Page 1' and circle it, on TOP of the sheet.</span>
+              
+            </div>
+          </div>
+          <div class="certificate-card">
+            
+            <div class="certificate-detail-div">
+              <h5 class="card-title">4. Take photos of each page of answer, with the Question clearly written on top of the first page</h5>
+              <p class="card-subtitle">Exactly as you would write an answer in mains, Before starting the answer you write the question and underline it. This is basic format for better presentation<br><br></p>
+            </div>
+            <div class="certificate-card-footer" width="flex">
+              <span class="certificate-tag">The photos must be clear and NOT shaky, please use a friend's phone if your phone clicks blur photos. Keep phone on a glass table and the your answer below the table, this way you need not to hold the phone and it is EASY!</span>
+              
+            </div>
+          </div>
+          <div class="certificate-card">
+            
+            <div class="certificate-detail-div">
+              <h5 class="card-title">UPLOAD YOUR ANSWER PDF BELOW</h5>
+              <p class="card-subtitle">click the button below and a new page will open. Upload all your photos in any way you are comfortable. Do not worry about format, size etc. If you want you can submit in PDF format, or a .ZIP folder also. Submit your Whatsapp Number, And make the payment by Scanning QRcode with ANY app and Submission is Complete!!
+                <br><br></p>
+            </div>
+            <div class="certificate-card-footer" width="flex">
+              <span class="certificate-tag">Normally, install a PDF file maker app, This will make your task easy!!</span>
+
+<!--https://app.hubspot.com/forms/23674799/editor/1994bd8a-edc2-436e-bbfc-b01cec0947f6/edit/automation -->
+
+
+            </div>
+          </div>
+          
+        </div>
+
+        <!-- 5th Section -->
+       <h2 id="upload" style="font-size:56px; font-weight: 700; margin-top: 50px;"><span class="low-highlight-lightyellow">Upload</span></h2>
+        <div class="achievement-cards-div">
+
+          <div class="certificate-card" style="backdrop-filter:sepia(90%) blur(100px) hue-rotate(190deg) invert(60%);">
+            Press the "Submit and Make Payment" button once the file has been uploaded. Please use any UPI app to scan the QR code on the next screen. Once the payment has been made, you can quit the website because the submission is complete. Please note that without payment the answer sheets will NOT be evaluated.
+            <script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/embed/v2.js"></script>
+<script>
+  hbspt.forms.create({
+    region: "na1",
+    portalId: "23674799",
+    formId: "1994bd8a-edc2-436e-bbfc-b01cec0947f6"
+  });
+</script>
+
+        </div> 
+        <h2  id="contact"
+          class="mob-connect enabledisable page-scroll"
+          style="font-size: 40px; font-weight: 700; margin-top: 50px"
+        >
+          <span class="low-highlight-hazeskin">Connect with me</span>
+        </h2>
+        <ul class="socialsites ">
+          <li>
+            <a href="mailto:snehapandey@gmail.com"><i class="fas fa-mail-bulk"></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/sneha-pandey-232799111"><i class="fab fa-linkedin"></i></a>
+          </li>
+          <!-- 
+          <li>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </li>
+          -->
+          <!--
+          <li>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+          -->
+        </ul>
+
+        <!-- Footer -->
+      </div>
+    </section>
+    <div class="button-top-div" id="myDIV">
+      <a id="button-top" href="#top"><i class="fas fa-chevron-up"></i></a>
+    </div>
+
+    <!-- Page Scroll Percentage -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- Page Scroll Up On Click -->
+    <script>
+      //scroller fixed
+      var scrolBtn = document.querySelector("#myDIV");
+      window.addEventListener("scroll", function () {
+        let offset;
+        offset = window.pageYOffset;
+        if (offset > 300) {
+          scrolBtn.style.display = "block";
+        }
+        if (offset < 300) {
+          scrolBtn.style.display = "none";
+        }
+      });
+
+      //remove that #s in the link
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+            block: "center",
+          });
+        });
+      });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
